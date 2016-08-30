@@ -1,5 +1,5 @@
 {
-    "name": "CraftBlue/google-authenticator-redux",
+    "name": "craftblue/google-authenticator-redux",
     "description": "A modern take on a PHP implementation of Google Authenticator 2-Factor Authentication focusing on best practices in security.",
     "type": "library",
     "keywords": ["google", "authenticator", "google-authenticator", "auth", "authentication", "2fa", "two-factor-auth", "security"],
