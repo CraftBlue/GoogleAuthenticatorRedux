@@ -1,6 +1,6 @@
 # Google Authenticator Redux PHP Client #
 
-[![Build Status](https://travis-ci.org/CraftBlue/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/CraftBlue/GoogleAuthenticator)
+[![Build Status](https://travis-ci.org/CraftBlue/GoogleAuthenticatorRedux.png?branch=master)](https://travis-ci.org/CraftBlue/GoogleAuthenticatorRedux)
 
 The library provides support for 2-Factor authentication, often referred to as **2FA**.
 
