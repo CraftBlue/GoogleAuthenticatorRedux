@@ -1,6 +1,6 @@
 <?php
 
-use POPdotco\GoogleAuthenticator;
+use CraftBlue\GoogleAuthenticator;
 
 class GoogleAuthenticatorTest extends PHPUnit_Framework_TestCase {
 
@@ -15,6 +15,8 @@ class GoogleAuthenticatorTest extends PHPUnit_Framework_TestCase {
     protected function setUp()
     {
         $this->ga = new GoogleAuthenticator();
+
+        parent::setUp();
     }
 
     /**
@@ -23,7 +25,7 @@ class GoogleAuthenticatorTest extends PHPUnit_Framework_TestCase {
     public function testItCanBeInstantiated()
     {
         $ga = new GoogleAuthenticator();
-        $this->assertInstanceOf('POPdotco\GoogleAuthenticator', $ga);
+        $this->assertInstanceOf(CraftBlue\GoogleAuthenticator::class, $ga);
     }
 
     /**
@@ -91,7 +93,7 @@ class GoogleAuthenticatorTest extends PHPUnit_Framework_TestCase {
     {
         $result = $this->ga->setCodeLength(6);
 
-        $this->assertInstanceOf('POPdotco\GoogleAuthenticator', $result);
+        $this->assertInstanceOf(CraftBlue\GoogleAuthenticator::class, $result);
     }
 
     /**
@@ -128,9 +130,9 @@ class GoogleAuthenticatorTest extends PHPUnit_Framework_TestCase {
     {
         return array(
             // secret, time, code
-            array('SECRET', 0, '200470'),
-            array('SECRET', 1385909245, '780018'),
-            array('SECRET', 1378934578, '705013'),
+            array('SECRET', 0, '857148'),
+            array('SECRET', 1385909245, '979377'),
+            array('SECRET', 1378934578, '560773'),
         );
     }
 
